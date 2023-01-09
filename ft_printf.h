@@ -6,7 +6,7 @@
 /*   By: hugde-cl <hugde-cl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 17:24:43 by hugde-cl          #+#    #+#             */
-/*   Updated: 2022/11/16 16:54:34 by hugde-cl         ###   ########.fr       */
+/*   Updated: 2023/01/09 14:20:20 by hugde-cl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ int				ft_counter(long nb);
 int				ft_toupper(int c);
 int				ft_tolower(int c);
 int				ft_count_hexa(unsigned long nb);
-size_t			ft_strlen(const char *str);
+int				ft_strlen(const char *str);
 int				ft_sort_di(va_list args);
 int				ft_sort_s(va_list args);
 unsigned int	ft_sort_u(va_list args);
